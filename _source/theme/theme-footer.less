@@ -1,0 +1,23 @@
+.footer{
+  background-color: #00535C;
+  padding: 60px 0;
+  position: relative;
+  z-index: -2;
+  @media (max-width: @screen-md) {
+    text-align: center;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00535C;
+    z-index: -1;
+    -webkit-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    transform: skewY(3deg);
+    height: 100%;
+  }
+}

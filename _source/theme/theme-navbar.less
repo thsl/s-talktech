@@ -1,0 +1,39 @@
+.navbar-fixedtop {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  color: #fff;
+  background-color: transparent;
+  -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+  transition: background .5s ease-in-out, padding .5s ease-in-out;
+  @media (min-width: 767px) {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  .clearfix();
+  .nav-content {
+    float: right;
+    padding: 16px 32px;
+    background-color: transparent;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+    @media (max-width: @screen-md) {
+      text-align: center;
+      padding: 8px 16px;
+      float: none;
+    }
+  }
+}
+
+.toggle-navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  @media (max-width: @screen-sm) {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .nav-content {
+    padding: 8px 16px !important;
+  }
+}

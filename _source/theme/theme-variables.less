@@ -1,0 +1,79 @@
+//
+// Variáveis do CSS do site
+// --------------------------------------------------
+//
+
+// Cores da identidade
+
+//links
+@link-color-blue: #53b7f6;
+@link-hover-color-blue: #80ccfa;
+
+// Cores genéricas
+@light-blue: #3c8dbc;
+@red: #f56954;
+@green: #00a65a;
+@aqua: #00c0ef;
+@yellow: #f39c12;
+@blue: #0073b7;
+@navy: #001F3F;
+@teal: #39CCCC;
+@olive: #3D9970;
+@lime: #01FF70;
+@orange: #FF851B;
+@fuchsia: #F012BE;
+@purple: #932ab6;
+@maroon: #85144B;
+@black: #222;
+@gray: #eaeaec;
+@white: #ffffff;
+
+//Cores
+@blue-darken-one: darken(@blue-one, 50%);
+@blue-light-one: #53b7f6;
+@blue-light-two: #3B5775;
+@text-color: #315357;
+
+@blue-one: #0068ae;
+@blue-two: #08456e;
+@green-one: #0a9490;
+@orange-one: #f69f3f;
+
+//@orange-one:;
+// Caminhos para imagens
+@image-path-theme: "../img";
+
+// Typography: Fontes etc
+@font-size-base: 16px;
+@line-height-base: 1.1em;
+
+@font-path: "../fonts";
+
+// fontes especiais
+@font-family: "lato", Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Headings
+@headings-font-family: @font-family;
+@headings-font-weight: normal;
+@headings-line-height: 1.1;
+@headings-color: inherit;
+
+// ícones
+// Font glyphicons (altereda por conta da estrutura de pastas)
+//@glyphicons-font-path: "glyphicons";
+
+// Font ionicons
+//@ionicons-font-path: "ionicons";
+
+.gradiente() {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0+0,0.7+100 */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC43Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 100%); /* FF3.6-15 */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(0, 0, 0, 0.7))); /* Chrome4-9,Safari4-5 */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 100%); /* Opera 11.10-11.50 */
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 100%); /* IE10 preview */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#b3000000', GradientType=0); /* IE6-8 */
+}
